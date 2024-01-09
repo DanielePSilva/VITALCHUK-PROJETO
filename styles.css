@@ -40,6 +40,7 @@ body {
   font-size: larger;
   a {
     text-decoration: none;
+    color: black;
   }
 }
 .container-slogan-services {
