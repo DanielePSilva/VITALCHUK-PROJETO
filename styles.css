@@ -4,21 +4,39 @@
   font-family: "Roboto";
   --primary-color: white;
   --secondary-color: rgb(78, 193, 242);
+  --third-color: #24262f;
+}
+body {
+  margin: 0%;
+}
+.container-insider-header-contact {
+  height: 50px;
+  width: 100%;
+  background-color: var(--third-color);
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+
+  a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    padding: 15px;
+  }
 }
 .site-header {
   width: 100%;
-  height: 300px;
-  background-color: var(--secondary-color);
+  height: 180px;
+  border: 2px solid var(--third-color);
 }
+
 .search-div {
   text-align: right;
   padding: 20px;
 }
 .menu-flex {
   display: flex;
-  padding: 60px;
+  padding: 30px;
   margin-right: 10px;
-  text-align: center;
   justify-content: space-around;
   font-size: larger;
 }
@@ -36,10 +54,15 @@
   font-size: 45px;
 }
 
+.logo-intro-img {
+  height: 500px;
+  width: 500px;
+  justify-content: center;
+}
 .Servicos-list {
   width: 100%;
-  height: 400px;
-  background-color: #353949;
+  height: 800px;
+  background-color: var(--third-color);
   color: var(--secondary-color);
   text-align: center;
   padding: 10px;
