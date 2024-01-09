@@ -33,7 +33,7 @@ body {
   text-align: right;
   padding: 20px;
 }
-.menu-flex {
+.menu-box-top {
   display: flex;
   padding: 30px;
   margin-right: 10px;
@@ -94,6 +94,13 @@ body {
 }
 .img-avalia {
   width: 150px;
+}
+.about-company {
+  height: 500px;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
 }
 footer {
   width: 100%;
