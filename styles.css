@@ -10,10 +10,14 @@
 }
 body {
   width: 100%;
-  margin: 0%;
+  margin: 0;
+  padding: 0;
 }
 a {
   text-decoration: none;
+}
+h2 {
+  font-size: xx-large;
 }
 .container-insider-header-contact {
   height: 50px;
@@ -34,10 +38,6 @@ a {
   background-color: var(--secondary-color);
 }
 
-.search-div {
-  text-align: right;
-  padding: 20px;
-}
 .menu-box-top {
   display: flex;
   padding: 20px;
@@ -62,12 +62,31 @@ a {
   justify-content: center;
 }
 .Servicos-list {
-  height: 800px;
-  background-color: var(--third-color);
+  height: 850px;
+  background-color: var(--primary-color);
   color: var(--secondary-color);
   text-align: center;
   padding: 10px;
+  border: 5px solid red;
 }
+.ilust-back-color {
+  margin-left: 70%;
+  margin-top: 10%;
+  height: 350px;
+  width: 450px;
+}
+
+.lista-servico {
+  text-align: left;
+  font-size: x-large;
+}
+/* .imagem-services {
+  border: 2px solid red; */
+/* 
+.ar-cond-img {
+  width: 400px;
+  height: 400px;
+} */
 
 .box-contatos {
   height: 700px;
@@ -77,25 +96,34 @@ a {
   width: 100%;
   font-size: 35px;
   text-align: center;
+  padding: 25px;
+  border: 1px;
+  background-color: var(--primary-color);
+  color: var(--third-color);
 }
+
 .container-phone {
   font-size: 25px;
-  width: 100%;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
+  width: 90%;
+  height: 90px;
+  padding: 30px;
+  text-align: center;
   border: 2px solid black;
-  border-radius: 30px;
+  border-radius: 50px;
+  margin-top: 30px;
   margin-bottom: 15px;
+  margin-left: 5%;
 }
 .container-email {
   font-size: 25px;
-  width: 100%;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
+  width: 90%;
+  height: 90px;
+  padding: 30px;
+  text-align: center;
   border: 2px solid black;
-  border-radius: 30px;
+  border-radius: 50px;
+  margin-bottom: 15px;
+  margin-left: 5%;
 }
 
 .avalia-section {
@@ -103,7 +131,7 @@ a {
 }
 .avalia {
   text-align: center;
-  padding: 50px;
+  padding: 40px;
   border: 1px solid black;
   border-radius: 15px;
 }
