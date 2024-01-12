@@ -5,7 +5,7 @@
 :root {
   font-family: "Roboto", sans-serif;
   --primary-color: white;
-  --secondary-color: rgb(78, 193, 242);
+  --secondary-color: #7edaee;
   --third-color: #24262f;
 }
 body {
@@ -61,47 +61,63 @@ h2 {
   width: 500px;
   justify-content: center;
 }
-.Servicos-list {
+.servicos-list {
   height: 850px;
   background-color: var(--primary-color);
-  color: var(--secondary-color);
+  color: var(--third-color);
   text-align: center;
   padding: 10px;
-  border: 5px solid red;
+  border: 2px solid black;
+
+  h2 {
+    font-size: 40px;
+    color: black;
+  }
+}
+.ul-backg-img-container {
+  display: flex;
+  justify-content: space-around;
 }
 .ilust-back-color {
-  margin-left: 70%;
-  margin-top: 10%;
-  height: 350px;
   width: 450px;
+  height: 350px;
 }
 
 .lista-servico {
-  text-align: left;
-  font-size: x-large;
+  text-align: start;
+  font-size: 35px;
 }
-/* .imagem-services {
-  border: 2px solid red; */
-/* 
-.ar-cond-img {
-  width: 400px;
-  height: 400px;
-} */
 
 .box-contatos {
-  height: 700px;
+  height: 900px;
   background-color: var(--primary-color);
 }
 .title-contact-box {
-  width: 100%;
-  font-size: 35px;
   text-align: center;
-  padding: 25px;
-  border: 1px;
-  background-color: var(--primary-color);
+  padding: 10px;
   color: var(--third-color);
+
+  h3 {
+    font-size: 35px;
+    color: black;
+  }
+  h3:after {
+    content: "";
+    display: block;
+    position: relative;
+    bottom: 1%;
+    left: 38%;
+    width: 25%;
+    height: 2px;
+    background-color: red;
+  }
 }
 
+.texto-contacto {
+  font-size: 25px;
+  text-align: center;
+  padding: 30px;
+}
 .container-phone {
   font-size: 25px;
   width: 90%;
@@ -109,10 +125,35 @@ h2 {
   padding: 30px;
   text-align: center;
   border: 2px solid black;
-  border-radius: 50px;
+  border-radius: 30px;
   margin-top: 30px;
   margin-bottom: 15px;
   margin-left: 5%;
+}
+
+.container-phone:hover {
+  border: 2px solid black;
+  background-color: var(--secondary-color);
+  color: white;
+  transition: 500ms;
+}
+.container-chat {
+  font-size: 25px;
+  width: 90%;
+  height: 90px;
+  padding: 30px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-left: 5%;
+}
+.container-chat:hover {
+  border: 2px solid black;
+  background-color: var(--secondary-color);
+  color: white;
+  transition: 500ms;
 }
 .container-email {
   font-size: 25px;
@@ -121,9 +162,19 @@ h2 {
   padding: 30px;
   text-align: center;
   border: 2px solid black;
-  border-radius: 50px;
+  border-radius: 30px;
   margin-bottom: 15px;
   margin-left: 5%;
+}
+.container-email:hover {
+  border: 2px solid black;
+  background-color: var(--secondary-color);
+  color: white;
+  transition: 500ms;
+}
+.button-contact {
+  color: black;
+  font-weight: bold;
 }
 
 .avalia-section {
@@ -145,7 +196,24 @@ h2 {
   flex-direction: column;
 }
 footer {
-  height: 200px;
+  height: 300px;
   background-color: var(--secondary-color);
   padding: 20px;
+}
+.certification {
+  padding: 10px;
+}
+.img-certificado {
+  width: 150px;
+  height: 150px;
+}
+.link-footer {
+  display: flex;
+  justify-content: baseline;
+  flex-wrap: wrap;
+}
+.links-rede-social {
+  color: var(--third-color);
+  font-size: 20px;
+  padding: 30px;
 }
