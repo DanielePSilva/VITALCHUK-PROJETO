@@ -16,8 +16,21 @@ body {
 a {
   text-decoration: none;
 }
+
 h2 {
-  font-size: xx-large;
+  font-size: 35px;
+  color: black;
+  padding: 30px;
+}
+h2:after {
+  content: "";
+  display: block;
+  position: relative;
+  bottom: 1%;
+  left: 38%;
+  width: 25%;
+  height: 2px;
+  background-color: red;
 }
 .container-insider-header-contact {
   height: 50px;
@@ -51,7 +64,7 @@ h2 {
 .intro {
   text-align: center;
   padding: 50px;
-  height: 600px;
+  height: 700px;
   padding: 45px;
   font-size: 45px;
 }
@@ -60,6 +73,7 @@ h2 {
   height: 500px;
   width: 500px;
   justify-content: center;
+  padding: 20px;
 }
 .servicos-list {
   height: 850px;
@@ -68,11 +82,6 @@ h2 {
   text-align: center;
   padding: 10px;
   border: 2px solid black;
-
-  h2 {
-    font-size: 40px;
-    color: black;
-  }
 }
 .ul-backg-img-container {
   display: flex;
@@ -96,21 +105,6 @@ h2 {
   text-align: center;
   padding: 10px;
   color: var(--third-color);
-
-  h3 {
-    font-size: 35px;
-    color: black;
-  }
-  h3:after {
-    content: "";
-    display: block;
-    position: relative;
-    bottom: 1%;
-    left: 38%;
-    width: 25%;
-    height: 2px;
-    background-color: red;
-  }
 }
 
 .texto-contacto {
@@ -178,16 +172,26 @@ h2 {
 }
 
 .avalia-section {
-  height: 300px;
-}
-.avalia {
-  text-align: center;
-  padding: 40px;
+  height: 600px;
   border: 1px solid black;
-  border-radius: 15px;
+}
+.title-avalia {
+  text-align: center;
 }
 .img-avalia {
-  width: 150px;
+  width: 100px;
+}
+.box-avaliations {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+.avaliations {
+  border: 1px solid black;
+  width: 450px;
+  height: 250px;
+  border-radius: 30px;
+  padding: 20px;
 }
 .about-company {
   height: 500px;
