@@ -94,8 +94,20 @@ h2:after {
   text-align: start;
   font-size: 35px;
 }
+.container-slides {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+}
 
-. .box-contatos {
+#slide-photos {
+  height: 200px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 30px;
+  text-align: center;
+}
+.box-contatos {
   height: 900px;
   background-color: var(--primary-color);
 }
