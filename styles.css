@@ -46,14 +46,13 @@ h2:after {
 }
 .site-header {
   width: 100%;
-  height: 120px;
-  border: 1px solid var(--third-color);
+  height: 100px;
   background-color: var(--secondary-color);
 }
 
 .menu-box-top {
   display: flex;
-  padding: 20px;
+  padding: 15px;
   justify-content: space-around;
   a {
     color: black;
@@ -65,15 +64,14 @@ h2:after {
   text-align: center;
   padding: 50px;
   height: 700px;
-  padding: 45px;
+  padding: 80px;
   font-size: 45px;
 }
 
 .logo-intro-img {
-  height: 500px;
-  width: 500px;
+  height: 550px;
+  width: 550px;
   justify-content: center;
-  padding: 20px;
 }
 .servicos-list {
   height: 850px;
@@ -97,7 +95,7 @@ h2:after {
   font-size: 35px;
 }
 
-.box-contatos {
+. .box-contatos {
   height: 900px;
   background-color: var(--primary-color);
 }
