@@ -3,10 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css"
     />
 
     <title>VITALCHUK Climatização</title>
@@ -21,7 +31,7 @@
           >
 
           <a href="mailto:vitalchukclimatizacao@gmail.com">
-            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-regular fa-envelope"></i>
             vitalchukclimatizacao@gmail.com</a
           >
         </div>
@@ -34,34 +44,68 @@
     </header>
 
     <div class="intro">
-      <img
-        src="./img/logo-color-vitalchuKpng.png"
-        alt="logo VITALCHUK"
-        class="logo-intro-img"
-      />
+      <div class="img-logo-intro">
+        <img
+          src="./img/logo-color-vitalchuKpng-Photoroom.png-Photoroom.png"
+          alt="logo VITALCHUK"
+          class="logo-intro-img"
+        />
+      </div>
     </div>
 
     <div class="servicos-list">
       <section id="servicos-list">
         <h2>SERVIÇOS</h2>
+
         <div class="ul-backg-img-container">
+          <h3>Ar condicionado</h3>
           <div class="ul-service-list">
             <ul class="lista-servico">
-              <h3>Ar condicionado</h3>
-              <li>Instalação</li>
-              <li>Reparação</li>
-              <li>Manutenção</li>
-              <li>Trabalho em Altura</li>
+              <li class="hover-service-list">Instalação</li>
+              <li class="hover-service-list">Reparação</li>
+              <li class="hover-service-list">Manutenção</li>
+              <li class="hover-service-list">Trabalho em Altura</li>
             </ul>
           </div>
-          <div class="backg-img-services">
+          <!-- <div class="backg-img-services">
             <img class="ilust-back-color" src="./img/backg-color-ilust.png" />
+          </div> -->
+        </div>
+        <div class="trabalhos">
+          <div class="trabalhos-container">
+            <img
+              src="./img-carrosel/servico-1.jpg"
+              alt="imagem 1"
+              class="img-trabalhos"
+            />
+          </div>
+          <div class="trabalhos-container">
+            <img
+              src="./img-carrosel/servico-2.jpg"
+              alt="imagem 2"
+              class="img-trabalhos"
+            />
+          </div>
+          <div class="trabalhos-container">
+            <img
+              src="./img-carrosel/servico-4.jpg"
+              alt="imagem 3"
+              class="img-trabalhos"
+            />
+          </div>
+          <div class="trabalhos-container">
+            <img
+              src="./img-carrosel/servico-7.jpg"
+              alt="imagem 4"
+              class="img-trabalhos"
+            />
           </div>
         </div>
-        <div class="container-slides">
-          <div id="slide-photos">
-            <p>slide com fotos dos serviços</p>
-          </div>
+        <div class="manutenção-section">
+          <a
+            >Por que fazer manutenção no Ar Condicionado?
+            <i class="fa-solid fa-angles-right" style="color: #74c0fc"></i
+          ></a>
         </div>
       </section>
     </div>
@@ -125,7 +169,6 @@
             saepe iure?"
           </p>
         </div>
-
         <div class="avaliations">
           <img
             class="img-avalia"
@@ -182,5 +225,6 @@
         >
       </div>
     </footer>
+    <script src="./app.js"></script>
   </body>
 </html>
