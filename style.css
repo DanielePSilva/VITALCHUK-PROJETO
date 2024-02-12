@@ -84,7 +84,7 @@ h3 {
   width: 550px;
 }
 .servicos-list {
-  height: 2000px;
+  height: max-content;
   background-color: var(--third-color);
   color: var(--third-color);
   text-align: center;
@@ -133,22 +133,31 @@ h3 {
 }
 .manutenção-section {
   display: inline-block;
+  width: 100%;
   margin-top: 2%;
-  padding: 20px;
-  font-size: 25px;
+  padding: 30px;
+  font-size: 20px;
   border: solid 1px white;
-  border-radius: 30px;
+  border-radius: 60px;
   color: white;
   cursor: pointer;
   box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.2);
 }
 
+/* css js */
+#texto {
+  display: none;
+  text-align: justify;
+  padding: 60px;
+  transition: height 0.5s ease-in-out;
+  overflow: hidden;
+}
 .marcas {
   margin-top: 30%;
   margin-left: 5%;
   margin-right: 5%;
   padding: 60px;
-  height: 200px;
+  height: 100%;
   border-radius: 15px;
   border: solid 1px white;
   background-color: white;

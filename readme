@@ -1,4 +1,5 @@
 O QUE JA TENHO DO PROJETO
+encapsulei texto em js "porque fazer manutençao"ok
 
 BODY
 
@@ -25,4 +26,4 @@ O QUE FALTA:
 JAVASCRIPT:
 
 - texto "porque fazer manutenção"
-- imagens das marcas dentro da div class marcas
+- imagens das marcas dentro do get by id "brand"
