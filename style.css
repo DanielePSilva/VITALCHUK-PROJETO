@@ -83,6 +83,7 @@ h3 {
   height: 550px;
   width: 550px;
 }
+
 .servicos-list {
   height: max-content;
   background-color: var(--third-color);
@@ -246,7 +247,6 @@ h3 {
 
 .avalia-section {
   height: 600px;
-  border: 1px solid black;
 }
 .title-avalia {
   text-align: center;
@@ -259,16 +259,21 @@ h3 {
   justify-content: space-around;
   padding: 50px;
 }
+cite {
+  display: flex;
+  text-align: end;
+  justify-content: end;
+  padding: 30px;
+}
 .fa-star {
   color: rgb(255, 201, 4);
 }
 .avaliations {
   border: 2px solid rgb(0, 0, 0);
-  margin: 1px;
   width: 350px;
   height: 250px;
   border-radius: 15px;
-  padding: 10px;
+  padding: 15px;
 }
 .about-company {
   height: 800px;
@@ -280,12 +285,15 @@ h3 {
   color: rgb(233, 227, 227);
 }
 footer {
-  height: 450px;
+  height: 400px;
   background-color: var(--secondary-color);
-  padding: 20px;
+  padding: 30px 30px 0 30px;
 }
 .certification {
-  padding: 10px;
+  padding: 30px 30px 0 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 .img-certificado {
   width: 150px;
@@ -307,10 +315,7 @@ footer {
 }
 .credits-footer {
   display: flex;
-  text-align: center;
-  flex-direction: column;
-  justify-content: end;
-  padding: 30px;
+  justify-content: space-around;
 
   a {
     color: rgb(27, 26, 26);

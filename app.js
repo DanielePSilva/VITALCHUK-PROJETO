@@ -8,3 +8,9 @@ function toggleTexto() {
     texto.style.height = "0px";
   }
 }
+
+$(".brand").slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+});
