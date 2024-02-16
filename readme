@@ -1,42 +1,28 @@
-O QUE JA TENHO DO PROJETO
-encapsulei texto em js "porque fazer manutençao"ok
+O QUE JA fiz DO PROJETO em JS
+encapsulei texto em js "porque fazer manutençao" - ok
 
-BODY
 
+SEÇOES QUE TENHO FEITAS:
 - INTRO
-- SERVICOS (FALTA ELEMENTOS)
+- SERVICOS (FALTA ELEMENTOS IMAGENS E MARCAS)
 - CONTACTOS
 - SECAO AVALIAÇAO
 - SOBRE NOS
+- FOOTER 
 
-O QUE FALTA:
+O QUE FALTA GERAL:
 
-- TERMINAR FOOTER
-- ALTERAR FUNDO
-- ACRESCENTAR TODOS OS ELEMENTOS
-- decidir o que vou precisar implementar JS
-- fazer JS E testar
-- IMPLEMENTAR TEXTOS
-- IMPLEMENTAR AVALIAÇÃO TEXTO VERDADEIRO
-- DEIXAR RESPONSIVO PATA MOBILE E TABLET
-- TESTAR
-- SUBIR DEPLOY
-- DOMINIO
+- CONFIGURAR MEDIA QUERIES (responsividade mobile e tablet)E TESTAR;
+- CRIAR SETUP VITE
+- Passar alteraços do Index.html para o about.html
+- Configurar e testar o projeto vite build.
+- SUBIR DEPLOY;
+- DOMINIO.
 
-JAVASCRIPT:
+O QUE FALTA EM FORMATO JAVASCRIPT:
+- Consertar detalher do botão em JS do texto encapsulado "porque fazer manutençao" na seção SERVICOS.
 
-- texto "porque fazer manutenção"
-- imagens das marcas dentro do get by id "brand"
+- Implementar imagens das marcas jpg em carrosel ou semelhante na seção "SERVIÇOS";
+- ADICIONAR OUTRAS FOTOGRAFIAS E/OU VIDEOS QUE O CLIENTE ENVIOU E DEIXAR CLICAVEL PARA AUMENTAR QUANDO O USER CLICAR EM CIMA DA FOTO E TAMBEM PODER PASSAR PARA O LADO (CARROSEL OU ALBUM DE FOTOS).
 
 
-Profissionais excelentes.
-Sempre contactáveis, boa relação qualidade/preço.
-Mariana Alves
-
-O trabalho da equipa é organizado com muito rigor. A instalação foi feita no prazo combinado.
-Fiquei muito satisfeito. Recomendo.
-João Almeida
-
-Da para entender que os trabalhadores da equipa são profissionais. Possuem capacidades de resolver problemas adicionais quando necessário.
-Recomendo.
-Diogo Lopes
