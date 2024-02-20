@@ -185,32 +185,23 @@ h3 {
 }
 .manutenção-section {
   display: inline-block;
-  width: 100%;
-  margin-top: 2%;
+  max-width: 100%;
   padding: 20px;
   font-size: 20px;
   border: solid 1px white;
-  border-radius: 60px;
+  border-radius: 30px;
   color: white;
   cursor: pointer;
   box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.2);
-}
-@media only screen and (max-width: 480px) {
-  .manutenção-section {
-    max-width: fit-content;
-    font-size: 16px;
-    margin: 5%;
-    border-radius: 30px;
-  }
 }
 
 /* css js */
 #texto {
   display: none;
-  text-align: justify;
+  text-align: left;
+  transition: height 1s ease-in-out;
+  overflow: scroll;
   padding: 10px;
-  transition: height 0.5s ease-in-out;
-  overflow: hidden;
 }
 .marcas {
   margin-top: 30%;
@@ -325,7 +316,7 @@ h3 {
 }
 
 .avalia-section {
-  height: 600px;
+  max-width: 100%;
 }
 .title-avalia {
   text-align: center;
@@ -335,8 +326,13 @@ h3 {
 }
 .box-avaliations {
   display: flex;
-  justify-content: space-around;
-  padding: 50px;
+  justify-content: center;
+  padding: 30px;
+}
+@media only screen and (max-width: 480px) {
+  .box-avaliations {
+    display: grid;
+  }
 }
 cite {
   display: flex;
@@ -348,11 +344,20 @@ cite {
   color: rgb(255, 201, 4);
 }
 .avaliations {
-  border: 2px solid rgb(0, 0, 0);
-  width: 350px;
-  height: 250px;
+  border: 1px solid rgb(0, 0, 0);
+  max-width: 350px;
+  max-height: 250px;
   border-radius: 15px;
   padding: 15px;
+  margin: 2%;
+  cursor: pointer;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 480px) {
+  .avaliations {
+    border-radius: 30px;
+  }
 }
 .about-company {
   height: 800px;
@@ -393,7 +398,7 @@ footer {
 }
 .links-rede-social {
   color: var(--third-color);
-  font-size: 20px;
+  font-size: 35px;
   padding: 30px;
 }
 @media only screen and (max-width: 480px) {
