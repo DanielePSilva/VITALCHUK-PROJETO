@@ -40,14 +40,20 @@ h3 {
 /* cabeçalho */
 .container-insider-header-contact {
   height: 50px;
+  max-width: 100%;
   background-color: var(--third-color);
   position: static;
   display: flex;
   justify-content: space-around;
 
   a {
-    color: var(--secondary-color);
+    color: white;
     padding: 15px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .container-insider-header-contact {
+    font-size: 12px;
   }
 }
 
@@ -58,8 +64,8 @@ h3 {
 }
 @media only screen and (max-width: 480px) {
   .site-header {
-    display: grid;
-    font-size: 10px;
+    padding: auto;
+    font-size: 15px;
   }
 }
 
@@ -386,10 +392,12 @@ footer {
 }
 
 .img-certificado {
-  width: 150px;
-  height: 150px;
+  max-width: 150px;
+  max-height: 150px;
+  padding: 10px;
 }
 .link-footer-container {
+  display: flex;
   justify-content: center;
 }
 .link-footer {
@@ -403,8 +411,7 @@ footer {
 }
 @media only screen and (max-width: 480px) {
   .links-rede-social {
-    font-size: 10px;
-    padding: 5px;
+    font-size: 25px;
   }
 }
 .credits-footer {
