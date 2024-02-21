@@ -12,6 +12,13 @@ function toggleTexto() {
 //slide
 simpleslider.getSlider({
   container: document.getElementById("myslider"),
+  transitionTime: 2,
+  delay: 3.5,
+});
+
+// slider services
+simpleslider.getSlider({
+  container: document.getElementsByName("trabalhos"),
   transitionTime: 1,
   delay: 3.5,
 });
