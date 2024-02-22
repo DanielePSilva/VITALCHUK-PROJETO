@@ -126,11 +126,11 @@ h3 {
 .servicos-list {
   background-color: var(--third-color);
   color: var(--third-color);
-  width: 100%;
   margin: 0;
+
   display: flex;
-  justify-content: center;
   text-align: center;
+  justify-content: center;
   padding: 10px;
   border: 2px solid black;
   h2 {
@@ -138,20 +138,30 @@ h3 {
   }
 }
 
+.containe-trabalhos {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
 #trabalhos {
   height: 800px;
-  width: 100%;
+  width: 1000px;
+  padding: 20px;
+  border: solid 10px white;
 }
 
 @media only screen and (max-width: 480px) {
   #trabalhos {
-    margin: 0%;
+    height: 380px;
+    width: 350px;
   }
 }
 
 .img-trabalhos {
   width: 1000px;
   height: 800px;
+  cursor: pointer;
+  border-radius: 10px;
 }
 @media only screen and (max-width: 480px) {
   .img-trabalhos {
@@ -182,12 +192,12 @@ h3 {
 .hover-service-list:hover {
   padding: 10px;
   color: red;
-  transition: 500ms;
   cursor: pointer;
+  transition: 0.5s;
 }
 .manutenção-section {
   display: inline-block;
-  max-width: 100%;
+  width: 100%;
   padding: 20px;
   font-size: 20px;
   border: solid 1px white;
@@ -203,7 +213,7 @@ h3 {
 #texto {
   display: none;
   text-align: left;
-  transition: height 1s ease-in-out;
+  transition: height 0.5s ease-in-out;
   overflow: scroll;
   padding: 10px;
 }
@@ -214,13 +224,14 @@ h3 {
   margin: 10px;
 }
 .marcas {
-  max-width: 100%;
+  width: 100%;
   padding: 10px;
   border-radius: 15px;
   border: solid 1px white;
   background-color: white;
   display: flex;
   justify-content: center;
+  margin-bottom: 5%;
 }
 #myslider {
   width: 300px;
