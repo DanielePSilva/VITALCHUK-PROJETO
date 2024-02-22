@@ -12,13 +12,24 @@ function toggleTexto() {
 //slide
 simpleslider.getSlider({
   container: document.getElementById("myslider"),
-  transitionTime: 2,
+  transitionTime: 1,
   delay: 3.5,
 });
 
 // slider services
-simpleslider.getSlider({
-  container: document.getElementsByName("trabalhos"),
-  transitionTime: 1,
+// document.addEventListener("DOMContentLoaded", function () {
+const slider = simpleslider.getSlider({
+  container: document.getElementById("trabalhos"),
+  transitionTime: 0,
   delay: 3.5,
 });
+
+//   document.getElementById("prevBtn").addEventListener("click", function () {
+//     slider.prevSlide(); // Função para ir para o slide anterior
+//   });
+
+//   // Event listener para o botão próximo
+//   document.getElementById("nextBtn").addEventListener("click", function () {
+//     slider.nextSlide(); // Função para ir para o próximo slide
+//   });
+// });

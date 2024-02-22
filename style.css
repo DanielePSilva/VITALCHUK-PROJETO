@@ -126,6 +126,10 @@ h3 {
 .servicos-list {
   background-color: var(--third-color);
   color: var(--third-color);
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
   text-align: center;
   padding: 10px;
   border: 2px solid black;
@@ -134,33 +138,25 @@ h3 {
   }
 }
 
-.trabalhos {
-  display: flex;
-  padding: 20px;
+#trabalhos {
+  height: 800px;
+  width: 100%;
 }
+
 @media only screen and (max-width: 480px) {
-  .trabalhos {
-    flex-wrap: grid;
-    padding: 10px;
+  #trabalhos {
+    margin: 0%;
   }
-}
-.trabalhos-container {
-  border: 2px solid black;
-  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  margin-top: 5%;
-  width: 400px;
-  height: 400px;
 }
 
 .img-trabalhos {
-  width: 400px;
-  height: 400px;
+  width: 1000px;
+  height: 800px;
 }
 @media only screen and (max-width: 480px) {
   .img-trabalhos {
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
   }
 }
 .ul-backg-img-container {
@@ -199,6 +195,8 @@ h3 {
   color: white;
   cursor: pointer;
   box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.2);
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 /* css js */
@@ -209,9 +207,15 @@ h3 {
   overflow: scroll;
   padding: 10px;
 }
+.title-marcas {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 10px;
+}
 .marcas {
-  margin-top: 5%;
-  padding: 20px;
+  max-width: 100%;
+  padding: 10px;
   border-radius: 15px;
   border: solid 1px white;
   background-color: white;
@@ -221,8 +225,6 @@ h3 {
 #myslider {
   width: 300px;
   height: 160px;
-  overflow: hidden; /* Garante que as imagens não ultrapassem os limites do contêiner */
-  white-space: nowrap;
 }
 .logo-maquinas-img {
   width: 300px;
