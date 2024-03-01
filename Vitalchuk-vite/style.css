@@ -413,6 +413,9 @@ cite {
 }
 
 /* Page about us style */
+.title-about-us {
+  font-size: 35px;
+}
 .title-about-us::after {
   content: "";
   display: block;
@@ -459,29 +462,77 @@ cite {
   }
 }
 .about-company {
-  height: 600px;
+  height: 100%;
+  width: 100%;
   padding: 60px;
-  font-size: 16px;
-  text-align: left;
   background-color: var(--third-color);
   color: rgb(233, 227, 227);
+  display: flex;
 }
 
 @media only screen and (max-width: 480px) {
   .about-company {
     height: 100%;
+    display: grid;
+    flex-wrap: wrap;
+    font-size: 16px;
+    padding: 30px;
   }
 }
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .about-company {
+    height: 100%;
+    display: grid;
+    flex-wrap: wrap;
+    font-size: 16px;
+    padding: 30px;
+  }
+}
+.about-text-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+  .about-text-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    font-size: 16px;
+  }
+}
+
+.air-conditioning-img {
+  width: 500px;
+  height: 500px;
+}
+
+@media only screen and (max-width: 480px) {
+  .air-conditioning-img {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .air-conditioning-img {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+  }
+}
+
 footer {
   height: 450px;
   background-color: var(--secondary-color);
-  padding: 30px 30px 0 30px;
 }
 
 .certification {
   padding: 30px 30px 0px 30px;
   display: flex;
-  width: 550px;
 }
 @media only screen and (max-width: 480px) {
   .certification {
