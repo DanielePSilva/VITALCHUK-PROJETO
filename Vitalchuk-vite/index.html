@@ -29,7 +29,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css"
     />
 
-    <title>VITALCHUK Climatização</title>
+    <title><span data-traducao="titulo">VITALCHUK Climatização</span></title>
   </head>
   <body>
     <header class="site-header">
@@ -46,11 +46,15 @@
         </div>
       </div>
       <div class="menu-box-top">
-        <a href="./about.html">Sobre nós</a>
-        <a href="#servicos-list">Serviços</a>
-        <a href="#contact"> Contactos</a>
+        <a href="./about.html"> <span data-traducao="sobre">Sobre Nós</span></a>
+        <a href="#servicos-list"
+          ><span data-traducao="serviços">Serviços</span></a
+        >
+        <a href="#contact"> <span data-traducao="contactos">Contactos</span></a>
       </div>
     </header>
+    <button onclick="alterarIdioma('pt')">Português</button>
+    <button onclick="alterarIdioma('en')">English</button>
 
     <div class="intro">
       <div class="container-logo-intro">
@@ -438,7 +442,7 @@
       <div class="other-info-container">
         <div class="other-info">
           <a href="https://www.livroreclamacoes.pt/Inicio/"
-            >• Livro de Reclamações</a
+            >•Livro de Reclamações</a
           >
         </div>
       </div>
@@ -464,5 +468,6 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/simple-slider/1.0.0/simpleslider.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
+    <script src="traducao.js" defer></script>
   </body>
 </html>

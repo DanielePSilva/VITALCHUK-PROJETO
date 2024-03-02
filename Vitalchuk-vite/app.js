@@ -1,3 +1,4 @@
+//texto encapsulado//
 function toggleTexto() {
   const texto = document.getElementById("texto");
   const buttonRead = document.getElementById("ButtonRead-btn");
@@ -12,14 +13,14 @@ function toggleTexto() {
   }
 }
 
-//slide
+//slide//
 simpleslider.getSlider({
   container: document.getElementById("myslider"),
   transitionTime: 4,
   delay: 4.0,
 });
 
-// slider services
+// slider services//
 
 const slider = simpleslider.getSlider({
   container: document.getElementById("trabalhos"),
