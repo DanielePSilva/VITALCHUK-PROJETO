@@ -168,14 +168,14 @@ h3 {
 @media only screen and (max-width: 480px) {
   #trabalhos {
     height: 480px;
-    width: 350px;
+    width: 300px;
     object-fit: fill;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
   #trabalhos {
-    height: 680px;
-    width: 750px;
+    height: 650px;
+    width: 700px;
     object-fit: fill;
   }
 }
@@ -262,6 +262,19 @@ h3 {
   display: flex;
   justify-content: center;
   margin-top: 5%;
+  margin-bottom: 5%;
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .marcas {
+    width: 800px;
+    padding: 10px;
+    border-radius: 15px;
+    border: solid 1px white;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
 }
 #myslider {
   width: 300px;
@@ -392,6 +405,9 @@ h3 {
 @media only screen and (max-width: 480px) {
   .box-avaliations {
     display: grid;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
   }
 }
 cite {
@@ -405,8 +421,8 @@ cite {
 }
 .avaliations {
   border: 1px solid rgb(0, 0, 0);
-  max-width: 300px;
-  height: 300px;
+  width: 300px;
+  height: 320px;
   border-radius: 15px;
   padding: 15px;
   margin: 2%;
@@ -490,9 +506,10 @@ cite {
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
   .about-company {
     height: 100%;
+    width: 100%;
     display: grid;
     flex-wrap: wrap;
-    font-size: 16px;
+    font-size: 12px;
     padding: 30px;
   }
 }
@@ -508,7 +525,8 @@ cite {
     width: 100%;
     height: 100%;
     display: grid;
-    font-size: 16px;
+    flex-direction: column;
+    font-size: 12px;
   }
 }
 
