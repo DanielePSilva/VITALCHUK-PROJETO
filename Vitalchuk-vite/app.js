@@ -27,3 +27,5 @@ const slider = simpleslider.getSlider({
   transitionTime: 0,
   delay: 3.5,
 });
+
+window.toggleTexto = toggleTexto;
