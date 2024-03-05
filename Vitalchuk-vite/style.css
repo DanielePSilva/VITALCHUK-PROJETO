@@ -171,6 +171,12 @@ h3 {
     width: 350px;
   }
 }
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  #trabalhos {
+    height: 500px;
+    width: 500px;
+  }
+}
 
 .img-trabalhos {
   width: 1024px;
