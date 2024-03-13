@@ -195,6 +195,44 @@ h3 {
   padding: 20px;
   object-fit: contain;
 }
+/* //button prev and next// */
+.navigation {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.next:hover {
+  background-color: white;
+  color: var(--third-color);
+  cursor: pointer;
+  transition: 0.5s;
+  scroll-behavior: auto;
+}
+.next {
+  background: none;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: solid 1px white;
+  border-radius: 20px;
+}
+.prev {
+  background: none;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: solid 1px white;
+  border-radius: 20px;
+}
+.prev:hover {
+  background-color: white;
+  color: var(--third-color);
+  cursor: pointer;
+  transition: 0.5s;
+  scroll-behavior: auto;
+}
 
 @media only screen and (max-width: 480px) {
   #trabalhos {

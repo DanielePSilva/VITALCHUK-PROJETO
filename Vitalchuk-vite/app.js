@@ -22,10 +22,20 @@ simpleslider.getSlider({
 
 // slider services//
 
-const slider = simpleslider.getSlider({
-  container: document.getElementById("trabalhos"),
-  transitionTime: 0,
-  delay: 3.5,
+$(document).ready(function () {
+  const slider = simpleslider.getSlider({
+    container: document.getElementById("trabalhos"),
+    transitionTime: 0,
+    delay: 3,
+  });
+
+  $(".next").on("click", function () {
+    slider.next();
+  });
+
+  $(".prev").on("click", function () {
+    slider.prev();
+  });
 });
 
 window.toggleTexto = toggleTexto;
